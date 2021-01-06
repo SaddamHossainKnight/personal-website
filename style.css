@@ -93,8 +93,8 @@ footer{
     padding: 90PX 0PX;
 }
 .inquiry-area{
-    height: 250px;
-    width: 65%;
+    height: 270px;
+    width: 70%;
     margin: 0 auto;
     background-size: contain;
     background-image: url("images/footer-bg.png");
@@ -103,17 +103,17 @@ footer{
 }
 .inquiry{
     padding-right: 20px;
-    padding: 60PX 0PX;
+    padding: 65PX 0PX;
     width: 50%;
     float: left;
 }
 .inquiry h2{
     font-size: 64px;
-    margin-left: 70px;
+    margin-left: 75px;
     color: white;
 }
 .inquiry a{
-    margin-left: 195px;
+    margin-left: 200px;
 }
 .connected-area{
     text-align: center;
@@ -128,6 +128,76 @@ footer{
 .connected-area h4{
     color: #696871;
     font-size: 24px;
+}
+.skill-area{
+    width: 90%;
+    height: 80%;
+    padding-top: 20px;
+    padding: 20px;
+}
+.skill-area h3{
+    text-align: center;
+}
+.skill {
+    margin: 20px 10px;
+    margin-left: 100px;
+}
+.skill span{
+    color:#363958;
+    font-size: 20px;
+    margin-right: 15px;
+    font-family: 'Bebas Neue', cursive;
+}
+.bar-border{
+    float: right;
+}
+.bar-border span{
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding-top: 5px;
+    font-family: roboto;
+    color: white;
+}
+.skill .bar-border{
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    width: 800px;
+    height: 30px;
+    border: 2px solid #363958;
+    font-size: 18px;
+    font-weight: bold;
+} 
+.bar-html{
+    border-radius: 5px 0px 0px 5px;
+    background-color:  #FF8367;
+    height: 100%;
+    width: 95%;
+}
+.bar-css{
+    border-radius: 5px 0px 0px 5px;
+    background-color:  #FF8367;
+    height: 100%;
+    width: 75%;
+}
+.bar-bootstrap{
+    border-radius: 5px 0px 0px 5px;
+    background-color:  #FF8367;
+    height: 100%;
+    width: 50%;
+}
+.bar-js{
+    border-radius: 5px 0px 0px 5px;
+    background-color:  #FF8367;
+    height: 100%;
+    width: 60%;
+}
+.bar-react{
+    border-radius: 5px 0px 0px 5px;
+    background-color:  #FF8367;
+    height: 100%;
+    width: 30%;
 }
 .icons img{
     padding: 5px 8px;
